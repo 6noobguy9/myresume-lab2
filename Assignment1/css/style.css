@@ -1,38 +1,85 @@
-.Intro
-{
-    
-        background-color:fuchsia;
-        height:500px;
-        margin-top:50px;
-        margin-left: 20%;
-        margin-right:20%;
-}
+
+
 @media(max-width:500px)
-    {
-.Info
+  /* styles.css */
 {
-   
-        background-color:rgb(37, 189, 189);
-        font-weight: 800;
-        font-size: 2em;
-        font-family: 'Ma shan zheng', cursive;
-        text-align: left;
-        padding: 40px,0px,0px,30px;
-    
+body {
+    display: flex;
 }
-    }
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.Intro, .skill {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.skill {
+    background-color: aquamarine;
+}
+
+.title {
+    background-color: rgb(37, 189, 189);
+    height: 100px;
+    font-weight: 800;
+    font-size: 2em;
+    font-family: 'Ma shan zheng', cursive;
+    text-align: left;
+    padding: 40px 0px 0px 30px;
+}
+
+.img {
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    left: 400px;
+    top: 42px;
+    display: flex;
+}
+}
     @media(max-width:700px)
     {
-.Info
-{
-   
-        background-color:rgb(37, 189, 189);
-        font-weight: 800;
-        font-size: 2em;
-        font-family: 'Ma shan zheng', cursive;
-        text-align: left;
-        padding: 40px,0px,0px,30px;
-    
-}
-    }
+        body {
+            display: flex;
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        
+        .Intro, .skill {
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        .skill {
+            background-color: aquamarine;
+        }
+        
+        .title {
+            background-color: rgb(37, 189, 189);
+            height: 100px;
+            font-weight: 800;
+            font-size: 2em;
+            font-family: 'Ma shan zheng', cursive;
+            text-align: left;
+            padding: 40px 0px 0px 30px;
+        }
+        
+        .img {
+            width: 200px;
+            height: 5px;
+            position: absolute;
+            left: 400px;
+            top: 42px;
+            display: flex;
+        }
+            }
+            
   

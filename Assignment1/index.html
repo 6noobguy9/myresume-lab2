@@ -6,13 +6,21 @@
     <title>Resume</title>
 </head>
 <style>
-    .Intro{
-            background-color:bisque;
-            height:300px;
-            margin-top:50px;
-            margin-left: 20%;
-            margin-right:20%;
-    }
+    .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .Intro, .skill {
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ccc; /* Add a border for separation */
+        }
+
+        .skill {
+            background-color: aquamarine;
+        }
+
     .title
 {
    
@@ -40,6 +48,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
 
 <body>
+
     
     <form action="" style="background-color: beige;">
     <div class="title">   
@@ -104,17 +113,23 @@
 
     </table>
 </div>
+<div class="container">
     <div class="Intro">
-    <hr>
-    <h2><u>Simple introduction</u></h2>
-    <p>My name is Choong Wei Lin,24 years old and study at PSDC in computer engineering course and which has procrastination problem.</p>
+        <hr>
+        <h2><u>Simple introduction</u></h2>
+        <p>My name is Choong Wei Lin, 24 years old and studying at PSDC in the computer engineering course with a procrastination problem.</p>
+    </div>
+
+    <div class="skill">
+        <h2><b><u>Skill</u></b></h2>
+        <ul>
+            <li><b>Communication Skill:⭐⭐⭐</b></li>
+            <li><b>Working Skill:⭐⭐</b></li>
+            <li><b>Time Management Skill:⭐</b></li>
+        </ul>
+    </div>
 </div>
-    <h2><b><u>Skill</u></b></h2>
-   <div class="skill">
-    <li><b>Communication Skill:⭐⭐⭐</b></li>
-    <li><b>Working Skill:⭐⭐</b></li>
-   <li><b>Time Management Skill:⭐</b></li>
-   </div>
+
    <div class="academic">
     <h2><u>Previous Academic</u></h2>
     <table border="3">
